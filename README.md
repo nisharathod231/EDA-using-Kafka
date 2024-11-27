@@ -55,6 +55,8 @@ pip install kafka-python-ng
 ### 2. Start Kafka and ZooKeeper
 
 ```bash
+cd kafka_2.13-3.8.0
+
 # Start ZooKeeper
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
