@@ -72,6 +72,12 @@ bin/kafka-topics.sh --create --topic certificate.verified --bootstrap-server loc
 bin/kafka-topics.sh --create --topic certificate.errors --bootstrap-server localhost:9092
 ```
 
+Verify the topic was created:
+`bin/kafka-topics.sh --list --bootstrap-server localhost:9092`
+
+<img width="1247" alt="Screenshot 2024-11-27 at 8 28 28 PM" src="https://github.com/user-attachments/assets/58bb3422-6a96-4d0d-8087-6aa2452580f2">
+
+
 ## Running the System
 
 ### Start Services in Separate Terminals
